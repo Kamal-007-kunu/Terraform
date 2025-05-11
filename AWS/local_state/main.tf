@@ -10,7 +10,7 @@ terraform {
 }
 
 provider "aws" {
-    region = "ap-southeast-2"  # Set your desired AWS region
+    region = "ap-south-1"  # Set your desired AWS region
 }
 
 resource "aws_instance" "example" {
